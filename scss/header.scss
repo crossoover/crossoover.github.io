@@ -235,36 +235,7 @@
             align-items: center;
 
             .social__login {
-               // border: 1px solid red;
-               width: 100px;
-               transform: scale(1.5);
-               margin-top: 12vh;
-               display: flex;
-               text-decoration: none;
-
-               .login__image {
-                  width: 30px;
-               }
-
-               &:hover .login__image {
-                  background: rgb(201, 197, 190);
-                  border-radius: 100px;
-                  transition: 0.3s;
-               }
-
-               &:hover .login__text {
-                  color: rgb(201, 197, 190);
-                  transition: 0.3s;
-               }
-
-
-               .login__text {
-                  font-size: 17px;
-                  letter-spacing: 0.5px;
-                  font-weight: bold;
-                  margin: 4px 0 0 5px;
-                  @include sandColorHover;
-               }
+               display: none;
             }
 
             .social__icon-wrapper {
